@@ -17,9 +17,6 @@ body{
 
 }
 
-li{
-    list-style: none;
-}
 .main{
     display: flex;
     flex-direction: column;
@@ -68,4 +65,5 @@ button{
 footer{
    font-size: 20px;
    font-weight: 500;
+   margin-top: 5rem;
 }
