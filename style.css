@@ -72,31 +72,41 @@ footer{
 
     .main{
         
-        height: 90vh;
+        height: 100vh;
     }
 
     
     h1{
     
-        font-size: 30px;
-        margin: 5rem 1rem 2rem 1rem;
+        font-size: 25px;
+        margin: 2rem 1rem 2rem 1rem;
     }
     
     h3{
-        font-size:15px;
+        font-size:14px;
         letter-spacing: 2px;
         margin: 2rem 0 1rem 0;
     }
     
     .languages{
-        width: 10rem;
+        width: 15rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
     }
+    
+    
     button{
-        margin: 1rem;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+        margin: 10px;
+    
+    }
+
+    .image{
+        display: none;
     }
 
     
