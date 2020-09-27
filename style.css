@@ -105,8 +105,9 @@ footer{
     
     }
 
-    .image{
-        display: none;
+    .image img{
+        width: 70px;
+        height: 70px;
     }
 
     
