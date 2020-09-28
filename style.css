@@ -30,20 +30,21 @@ body{
 
 h1{
     
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 40px;
+    letter-spacing: 3px;
     margin: 2rem 1rem 4rem 1rem;
 }
 
-h3{
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    margin: 4rem 1rem 2.5rem 1rem;
+.image img{
+    width: 120px;
+    height: 120px;
 }
 
+
 .languages{
-    width: 30rem;
+    margin: 4rem 1rem 0;
+    max-width: 22rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,16 +52,60 @@ h3{
 }
 
 button{
-    width: 110px;
-    height: 50px;
+    width: 98px;
+    height: 27px;
+    border: none;
+    background-color: #F1FAEE;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+button:focus{
+    outline: none;
+    background-color: #457B9D;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.play-info{
+    margin: 2rem;
+    max-width: 19rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#play, #info{
+    width: 140px;
+    height: 60px;
     border: none;
     background-color: #F1FAEE;
     color: #E63946;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 600;
     cursor: pointer;
+}
+
+#play:hover, #info:hover{
+    color: #F1FAEE;
+    background-color: #E63946;
+
 
 }
+
+
+
+
+
+
+
+
+
 
 footer{
    font-size: 20px;
