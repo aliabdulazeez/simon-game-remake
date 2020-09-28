@@ -1,5 +1,10 @@
 
+const playBtn = document.getElementById('play').addEventListener('click', () =>{
+    window.location.href = "http://127.0.0.1:5500/game_page.html";
 
+    console.log('worked');
+
+ })
 
 
 const uzbek = {
@@ -63,3 +68,6 @@ function changeLang(mode){
 
     localStorage.setItem('lang', mode)
 }
+
+
+ 
