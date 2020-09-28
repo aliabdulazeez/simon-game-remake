@@ -72,7 +72,7 @@ button:focus{
 
 .play-info{
     margin: 2rem;
-    max-width: 19rem;
+    max-width: 28rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -81,14 +81,15 @@ button:focus{
 }
 
 #play, #info{
-    width: 140px;
-    height: 60px;
+    width: 213px;
+    height: 73px;
     border: none;
     background-color: #F1FAEE;
     color: #E63946;
     font-size: 26px;
     font-weight: 600;
     cursor: pointer;
+    /* margin: 10px; */
 }
 
 #play:hover, #info:hover{
