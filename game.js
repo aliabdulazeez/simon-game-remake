@@ -40,7 +40,7 @@ document.getElementById('start-btn').addEventListener('click', () =>{
         
         console.log(gamePattern);
 
-        $("#start-btn").text('STARTED')
+        $("#start-btn").html('STARTED')
     
         }
 })
