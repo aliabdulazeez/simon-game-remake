@@ -55,8 +55,8 @@ button{
     width: 98px;
     height: 27px;
     border: none;
-    background-color: #F1FAEE;
-    color: #000000;
+    background-color: #a8dadc;
+    color: #1D3557;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -140,19 +140,19 @@ footer{
     }
     
     .languages{
-        width: 15rem;
+        width: 12.5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: row;
         margin: 2rem 1rem 0;
     }
     
     
     button{
-        width: 80px;
-        height: 20px;
-        font-size: 10px;
+        width: 85px;
+        height: 25px;
+        font-size: 9px;
         margin: 5px;
     
     }
