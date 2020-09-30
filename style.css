@@ -140,20 +140,31 @@ footer{
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
+        margin: 2rem 1rem 0;
     }
     
     
     button{
         width: 80px;
-        height: 30px;
-        font-size: 15px;
-        margin: 10px;
+        height: 20px;
+        font-size: 10px;
+        margin: 5px;
     
     }
 
     .image img{
         width: 70px;
         height: 70px;
+    }
+
+    .play-info{
+        flex-direction: column;
+    }
+
+    #play, #info{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
     }
 
     

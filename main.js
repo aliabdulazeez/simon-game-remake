@@ -2,9 +2,12 @@
 const playBtn = document.getElementById('play').addEventListener('click', () =>{
     window.location.href = "/game_page.html";
 
-    console.log('worked');
+ });
 
- })
+const infoBtn = document.getElementById('info').addEventListener('click', () =>{
+    window.location.href = "/info.html";
+
+ });
 
 
 const uzbek = {
