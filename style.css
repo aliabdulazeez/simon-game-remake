@@ -92,6 +92,11 @@ button:focus{
     /* margin: 10px; */
 }
 
+#play{
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
 #play:hover, #info:hover{
     color: #F1FAEE;
     background-color: #E63946;
