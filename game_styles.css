@@ -1,19 +1,22 @@
+
+
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #1d3557;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', cursive;
   font-size: 2rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #a8dadc;
 }
 
 .container {
-  display: block;
-  width: 50%;
-  margin: auto;
+  max-width: 42rem;
+  width: 100%;
+  height: 90vh;
+  margin: 4rem auto;
 
 }
 
@@ -22,8 +25,7 @@ body {
   display: inline-block;
   height: 150px;
   width: 150px;
-  border: 10px solid black;
-  border-radius: 20%;
+  border: 1px solid #a8dadc;
 }
 
 .game-over {
@@ -36,7 +38,7 @@ body {
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(7, 148, 7);
 }
 
 .blue {
@@ -55,3 +57,5 @@ body {
   box-shadow: none;
   background-color: initial;
 }
+
+

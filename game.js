@@ -14,11 +14,27 @@ var started = false;
 var level = 0;
 
 
-$(document).keypress(function(){
+// $(document).keypress(function(){
+
+//     if(!started){
+
+//         //$("#level-title").text("Level " + level);
+
+//     nextSequence();
+
+//     started = true;
+    
+//     console.log(gamePattern);
+
+//     }
+// });
+
+
+$(".btn").click( function (event) {
 
     if(!started){
 
-        //$("#level-title").text("Level " + level);
+        $("#level-title").text("Level " + level);
 
     nextSequence();
 
@@ -26,11 +42,7 @@ $(document).keypress(function(){
     
     console.log(gamePattern);
 
-    }
-});
-
-
-$(".btn").click( function (event) {
+    };
   
     var userChosenColor = event.toElement.id;  // This code came from my efforts (I proudly didn't use Angela's code ha ha ha)
 
