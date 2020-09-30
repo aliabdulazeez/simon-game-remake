@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 42rem;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   margin: 4rem auto;
 
 }
@@ -58,4 +58,28 @@ body {
   background-color: initial;
 }
 
+
+
+
+@media only screen and (max-width: 450px){
+
+  #level-title {
+    font-size: 1.2rem;
+    margin:  5%;
+    color: #a8dadc;
+  }
+  
+  .container {
+    max-width: 30rem;
+    height: 70vh;
+    
+  
+  }
+  
+  .btn {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+  }
+}
 
