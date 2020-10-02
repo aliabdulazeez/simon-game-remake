@@ -13,6 +13,19 @@ var started = false;
 
 var level = 0;
 
+let lang = localStorage.getItem('lang')
+
+
+// if(lang == null){
+// 	console.log(english.play)
+// }else{
+// 	console.log(lang)
+// }
+
+console.log(lang);
+
+
+
 
 $(document).keypress(function(){
 
@@ -40,9 +53,29 @@ document.getElementById('start-btn').addEventListener('click', () =>{
         
         console.log(gamePattern);
 
-        $("#start-btn").html('STARTED')
+        if(lang == 'english'){
+
+            $("#start-btn").html('STARTED')
+        }else if(lang == 'uzbek'){
+
+            $("#start-btn").html('BOSHLANDI')
+
+        }else if(lang == 'russian'){
+
+            $("#start-btn").html('Nachali')
+
+        }
+
+        
     
         }
+
+
+
+
+        localStorage.setItem('lang', mode)
+
+
 })
 
 
@@ -83,7 +116,9 @@ function checkAnswer(currentLevel){
             $("body").removeClass("game-over");
         }, 200);
 
+        
         $("#level-title").text("Game Over, Press Any Key to Restart");
+        
 
         startOver();
     }
